@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.registermain{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(137, 137, 137);
+    background: url(/img2/Expected_Changes_in_Recruitment_in_2022.jpg);
+    background-size: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registerin{
+    height: 600px;
+    width: 600px;
+    background-color: rgba(3, 3, 3, 0.813);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.formsection>div>label{
+    font-size: 20px;
+
+}
+.formsection>div>input{
+    height: 50px;
+    border-bottom: 4px solid red;
+
+}
+.formsection>div>div>input{
+    height: 50px;
+    border-bottom: 4px solid red;
+}
+.formsection>div>select{
+    height: 50px;
+    border-bottom: 4px solid red;
+}
+.formsection>div>textarea{
+    height: 50px;
+    border-bottom: 4px solid red;
+    padding: 8px;
+}
+
+@media screen  and (min-width:0px) and (max-width:767px){
+    .registermain{
+        height: auto;
+         width: 100%;
+         margin-top: 0;
+    }
+    .registerin{
+        height: auto;
+        width: 100%;
+        margin-top: 0px;
+    }
+}
